@@ -2,12 +2,12 @@ module.exports = {
   title: "UTN FRA - Programación II",
   tagline:
     "Información, apuntes y ejercicios para la asignatura Programación II.",
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://mauriciocerizza.github.io/utn-prog-ii/",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "UTN FRA",
+  organizationName: "UTN - Facultad Regional Avellaneda",
   projectName: "utn-prog-ii",   
   themeConfig: {   
     sidebarCollapsible: true,
@@ -103,7 +103,7 @@ module.exports = {
           title: "Reportar un error",
           items: [
             {
-              html: "<a href=\"https://www.w3schools.com\" target=\"_blank\"><img src=\"/static/img/robot-repara.png\" alt=\"Reportar error\" width=60% height=60%></img></a>",
+              html: "<a href=\"https://github.com/mauricioCerizza/utn-prog-ii/issues/new\" target=\"_blank\"><img src=\"/static/img/robot-repara.png\" alt=\"Reportar error\" width=60% height=60%></img></a>",
             }
           ],
         },
