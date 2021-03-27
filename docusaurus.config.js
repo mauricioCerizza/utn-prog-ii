@@ -8,8 +8,10 @@ module.exports = {
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "UTN FRA",
-  projectName: "utn-prog-ii",
-  themeConfig: {
+  projectName: "utn-prog-ii",   
+  themeConfig: {   
+    sidebarCollapsible: true,
+    hideableSidebar: true,
     navbar: {
       title: "Programación II",
       logo: {
@@ -18,23 +20,23 @@ module.exports = {
       },
       items: [
         {
-          to: "docs/introduccion/informacion-materia",
+          to: "docs/introduccion/descripcion-materia",
           activeBasePath: "docs/introduccion/",
           label: "Introducción a la materia",
           position: "left",
         },
         {
-          to: "apuntes/",
-          activeBasePath: "docs/apuntes",
+          to: "docs/apuntes/programa",
+          activeBasePath: "docs/apuntes/",
           label: "Apuntes Teóricos",
           position: "left",
         },
-        {
+/*         {
           to: "docs/ejercicios/introduccion",
           activeBasePath: "docs/ejercicios/",
           label: "Ejercicios",
           position: "left",
-        },
+        }, */
         {
           href: "http://www.sistemas-utnfra.com.ar/#/home",
           label: "Tecnicaturas UTN-Fra",
@@ -50,20 +52,16 @@ module.exports = {
           items: [
             {
               label: "Introducción a la materia",
-              to: "docs/introduccion/informacion-materia",
-            },
-            {
-              label: "Clases",
-              to: "docs/clases/",
+              to: "docs/introduccion/",
             },
             {
               label: "Apuntes Teóricos",
               to: "docs/apuntes/",
             },
-            {
+/*             {
               label: "Ejercicios",
               to: "docs/ejercicios/conceptos-basicos/ejercicio-01",
-            },
+            }, */
           ],
         },
         {
@@ -88,13 +86,29 @@ module.exports = {
               href: "https://docs.microsoft.com/es-es/dotnet/",
             },
             {
-              label: "Github - Mauricio Cerizza",
-              href: "https://github.com/mauricioCerizza",
+              label: "Github - Prof. Federico Dávila",
+              href: "https://github.com/FedeDavila1984/utn_prog_y_lab_II",
+            },
+            {
+              label: "Github - Prof. Ezequiel Oggioni",
+              href: "https://github.com/EzequielOggioni",
+            },
+            {
+              label: "Github - Prof. Mauricio Cerizza",
+              href: "https://github.com/mauricioCerizza/programacion-laboratorio-II",
             },
           ],
         },
+        {
+          title: "Reportar un error",
+          items: [
+            {
+              html: "<a href=\"https://www.w3schools.com\" target=\"_blank\"><img src=\"/static/img/robot-repara.png\" alt=\"Reportar error\" width=60% height=60%></img></a>",
+            }
+          ],
+        },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Mauricio Cerizza. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} UTN Facultad Regional Avellaneda. Built with Docusaurus.`,
     },
     prism: {
       additionalLanguages: ["csharp"],
@@ -107,14 +121,8 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/",
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/blog/",
+          /* editUrl:
+            "https://github.com/facebook/docusaurus/edit/master/website/", */
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

@@ -8,32 +8,34 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Clases',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: 'Introducción a la materia',
+    imageUrl: 'img/robot-intro.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        <p>Todo lo que necesitás saber para arrancar la cursada.</p>
+        <p>Condiciones de aprobación, canales de comunicación, herramientas a instalar, guía de estilo, bibliografía y más.</p>
       </>
     ),
   },
   {
     title: 'Apuntes teóricos',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    imageUrl: 'img/robot-apuntes.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        <p>En esta sección encontrarán la explicación teórica de cada uno de los temas de la materia.</p>
+        <p>Recomendamos leer los apuntes antes y después de cada clase.</p>
+        <p><b>¡No dejes de practicar la teoría con los cuestionarios al final de cada módulo!</b></p>
+      
       </>
     ),
   },
   {
     title: 'Ejercicios',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    imageUrl: 'img/robot-programando.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        <p>Muy pronto tendremos una nueva versión de la guía de ejercicios.</p>
+        <p><b>Por ahora seguiremos usando la guía que se encuentra en <a href="https://classroom.google.com/u/0/c/NTQ1MTg2NjM5NDBa">Google Classroom.</a></b></p>
       </>
     ),
   },
