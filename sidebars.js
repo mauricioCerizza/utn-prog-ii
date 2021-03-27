@@ -1,17 +1,29 @@
 module.exports = {
     Introducción: [
-      "introduccion/informacion-materia",
+      "introduccion/descripcion-materia",
+      "introduccion/regularizacion",
+      "introduccion/trabajos-practicos",
+      "introduccion/examenes",
       "introduccion/slack",
-      "introduccion/planificacion",
+      "introduccion/entorno-trabajo",
+      "introduccion/guia-estilos",
+      "introduccion/recomendaciones",
     ],
-    "Apuntes Teóricos": ["doc1", "doc2", "doc3"],
-    Clases: ["doc4"],
-    Ejercicios: ["ejercicios/introduccion",
+    Apuntes: ["apuntes/programa",
+        { 
+          "Introducción a .NET y C#": [
+            "apuntes/01-introduccion/00-introduccion-net", 
+            "apuntes/01-introduccion/01-introduccion-c-sharp", 
+            "apuntes/01-introduccion/cuestionario-bibliografia"
+          ]
+        },
+    ],
+/*     Ejercicios: ["ejercicios/introduccion",
       {
         "Conceptos Básicos": [
           "ejercicios/conceptos-basicos/ejercicio-01",
           "ejercicios/conceptos-basicos/ejercicio-02",
         ],
       },
-    ],
+    ], */
 };

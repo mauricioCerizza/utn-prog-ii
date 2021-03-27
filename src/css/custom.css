@@ -6,14 +6,15 @@
  */
 
 /* You can override the default Infima variables here. */
+/*https://v2.docusaurus.io/docs/styling-layout#styling-your-site-with-infima */
 :root {
-  --ifm-color-primary: #e68740;
-  --ifm-color-primary-dark: #e37726;
-  --ifm-color-primary-darker: #dd6f1d;
-  --ifm-color-primary-darkest: #b65b18;
-  --ifm-color-primary-light: #e9975a;
-  --ifm-color-primary-lighter: #eba067;
-  --ifm-color-primary-lightest: #f0b88e;;
+  --ifm-color-primary: #522cd5;
+  --ifm-color-primary-dark: #4926c1;
+  --ifm-color-primary-darker: #4524b6;
+  --ifm-color-primary-darkest: #391e96;
+  --ifm-color-primary-light: #6441d9;
+  --ifm-color-primary-lighter: #6c4cdb;
+  --ifm-color-primary-lightest: #876ce2;
   --ifm-code-font-size: 95%;
 }
 
