@@ -2,8 +2,8 @@ module.exports = {
   title: "UTN FRA - Programación II",
   tagline:
     "Información, apuntes y ejercicios para la asignatura Programación II.",
-  url: "https://mauriciocerizza.github.io/utn-prog-ii/",
-  baseUrl: "/",
+  url: "https://mauriciocerizza.github.io",
+  baseUrl: "/utn-prog-ii/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
