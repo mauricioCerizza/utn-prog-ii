@@ -2,6 +2,7 @@
 title: Entorno de trabajo 
 sidebar_label: Entorno de trabajo 
 slug: /introduccion/entorno-trabajo
+hide_table_of_contents: true
 ---
 
 Durante toda la cursada usaremos el __IDE Visual Studio 2019__ (si tienen la versión 2017 instalada también sirve). 

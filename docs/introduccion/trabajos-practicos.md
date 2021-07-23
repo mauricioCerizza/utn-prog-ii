@@ -2,6 +2,7 @@
 title: Trabajos prácticos
 sidebar_label: Trabajos prácticos
 slug: /introduccion/trabajos-practicos
+hide_table_of_contents: true
 ---
 
 La materia Laboratorio de Computación II cuenta con cuatro trabajos prácticos que deben estar aprobados para regularizar la materia. Programación II no tiene trabajos prácticos obligatorios.

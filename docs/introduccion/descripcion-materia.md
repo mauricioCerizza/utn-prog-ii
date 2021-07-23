@@ -2,6 +2,7 @@
 title: Descripción de la materia
 sidebar_label: Descripción de la materia
 slug: /introduccion/descripcion-materia
+hide_table_of_contents: true
 ---
 
 El objetivo de esta materia es introducir al alumno en el diseño y desarrollo de programas de alto nivel aplicando el paradigma de programación orientada a objetos.

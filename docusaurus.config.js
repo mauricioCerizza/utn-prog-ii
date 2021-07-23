@@ -1,13 +1,13 @@
 module.exports = {
   title: "UTN FRA - Programación II",
   tagline:
-    "Información, apuntes y ejercicios para la asignatura Programación II.",
+    "Información, apuntes y ejercicios para las asignaturas Programación II y Laboratorio de Computación II.",
   url: "https://mauriciocerizza.github.io",
   baseUrl: "/utn-prog-ii/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "UTN - Facultad Regional Avellaneda",
+  organizationName: "MauricioCerizza",
   projectName: "utn-prog-ii",   
   themeConfig: {   
     sidebarCollapsible: true,
@@ -52,11 +52,11 @@ module.exports = {
           items: [
             {
               label: "Introducción a la materia",
-              to: "docs/introduccion/",
+              to: "docs/introduccion/descripcion-materia",
             },
             {
               label: "Apuntes Teóricos",
-              to: "docs/apuntes/",
+              to: "docs/apuntes/programa",
             },
 /*             {
               label: "Ejercicios",
@@ -108,7 +108,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} UTN Facultad Regional Avellaneda. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} UTN Facultad Regional Avellaneda. Built with <a href=\"https://docusaurus.io/\" target=\"_blank\">Docusaurus</a>.`,
     },
     prism: {
       additionalLanguages: ["csharp"],

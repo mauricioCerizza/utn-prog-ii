@@ -17,3 +17,8 @@ slug: /apuntes/introduccion/cuestionario
 ## Bibliografía
 * “.NET Architectural Components.” Microsoft Docs, https://docs.microsoft.com/en-us/dotnet/standard/components.
 * "Common Type System & Common Language Specification." Microsoft Docs, https://docs.microsoft.com/en-us/dotnet/standard/common-type-system
+
+## Créditos
+**Autor/es:** Prof. Mauricio Cerizza
+**Revisor/es:** 
+**Fecha de la última revisión:**

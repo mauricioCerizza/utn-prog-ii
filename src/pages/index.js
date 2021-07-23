@@ -73,7 +73,7 @@ function Home() {
                 'button button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/introduccion/informacion-materia')}>
+              to={useBaseUrl('docs/introduccion/descripcion-materia')}>
               ¡Arranquemos!
             </Link>
           </div>

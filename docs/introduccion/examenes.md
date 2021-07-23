@@ -2,6 +2,7 @@
 title: Exámenes parciales
 sidebar_label: Exámenes parciales
 slug: /introduccion/examenes
+hide_table_of_contents: true
 ---
 #### Programación II
 Se tomarán dos exámenes parciales enfocados en los _**aspectos teóricos del programa**_. El primer parcial evalúa los temas de la primera mitad de la materia, el segundo los de la segunda parte. 

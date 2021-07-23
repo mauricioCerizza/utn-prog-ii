@@ -2,6 +2,7 @@
 title: Guía de estilos
 sidebar_label: Guía de estilos
 slug: /introduccion/guia-estilos
+hide_table_of_contents: true
 ---
 
 Las guías de estilo (también llamadas estándares de código o estilos de programación) es el nombre que se le da al conjunto de normas usadas para escribir código, estas son regularmente dependientes del lenguaje de programación. 

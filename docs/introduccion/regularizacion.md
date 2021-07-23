@@ -2,6 +2,7 @@
 title: Regularización de la materia
 sidebar_label: Regularización de la materia
 slug: /introduccion/regularizacion
+hide_table_of_contents: true
 ---
 
 Para acceder a la instancia de examen final se deberá:

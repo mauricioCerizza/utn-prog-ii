@@ -9,7 +9,9 @@ module.exports = {
       "introduccion/guia-estilos",
       "introduccion/recomendaciones",
     ],
-    Apuntes: ["apuntes/programa",
+    Apuntes: [
+      "apuntes/programa",
+      "apuntes/cuestionarios",
         { 
           "Introducción a .NET y C#": [
             "apuntes/01-introduccion/00-introduccion-net", 

@@ -2,6 +2,7 @@
 title: Recomendaciones
 sidebar_label: Recomendaciones
 slug: /introduccion/recomendaciones
+hide_table_of_contents: true
 ---
 
 #### Seguir la materia al día
