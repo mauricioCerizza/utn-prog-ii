@@ -28,13 +28,14 @@ module.exports = {
               "clases/23-hilos/apuntes/01-concurrencia",
             ]
           },
-          "clases/23-hilos/cuestionario/cuestionario",
           {
-            "Ejercicios": [
+            "Ejercicios Prácticos": [
               "clases/23-hilos/ejercicios/indice",
               "clases/23-hilos/ejercicios/ejercicio-01",
             ]
-          }
+          },
+          "clases/23-hilos/cuestionario/cuestionario",
+          "Bibliografía"
         ],
       }
     ],
