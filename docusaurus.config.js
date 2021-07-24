@@ -26,8 +26,8 @@ module.exports = {
           position: "left",
         },
         {
-          to: "docs/apuntes/programa",
-          activeBasePath: "docs/apuntes/",
+          to: "docs/clases/programa",
+          activeBasePath: "docs/clases/",
           label: "Apuntes Teóricos",
           position: "left",
         },
@@ -55,8 +55,8 @@ module.exports = {
               to: "docs/introduccion/descripcion-materia",
             },
             {
-              label: "Apuntes Teóricos",
-              to: "docs/apuntes/programa",
+              label: "Clases",
+              to: "docs/clases/programa",
             },
 /*             {
               label: "Ejercicios",

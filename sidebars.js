@@ -9,16 +9,34 @@ module.exports = {
       "introduccion/guia-estilos",
       "introduccion/recomendaciones",
     ],
-    Apuntes: [
-      "apuntes/programa",
-      "apuntes/cuestionarios",
-        { 
-          "Introducción a .NET y C#": [
-            "apuntes/01-introduccion/00-introduccion-net", 
-            "apuntes/01-introduccion/01-introduccion-c-sharp", 
-            "apuntes/01-introduccion/cuestionario-bibliografia"
-          ]
-        },
+    Clases: [
+      "clases/programa",
+      "clases/cuestionarios",
+      { 
+        "Introducción a .NET y C#": [
+          "clases/01-introduccion/00-introduccion-net", 
+          "clases/01-introduccion/01-introduccion-c-sharp", 
+          "clases/01-introduccion/cuestionario-bibliografia"
+        ]
+      },
+      {
+        "Programación multi-hilos y concurrencia": 
+        [
+          {
+            "Apuntes": [
+              "clases/23-hilos/apuntes/00-indice",
+              "clases/23-hilos/apuntes/01-concurrencia",
+            ]
+          },
+          "clases/23-hilos/cuestionario/cuestionario",
+          {
+            "Ejercicios": [
+              "clases/23-hilos/ejercicios/indice",
+              "clases/23-hilos/ejercicios/ejercicio-01",
+            ]
+          }
+        ],
+      }
     ],
 /*     Ejercicios: ["ejercicios/introduccion",
       {

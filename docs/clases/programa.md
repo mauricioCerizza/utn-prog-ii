@@ -1,7 +1,7 @@
 ---
 title: Programa
 sidebar_label: Programa
-slug: /apuntes/programa
+slug: /clases/programa
 hide_table_of_contents: true
 ---
 
@@ -64,7 +64,7 @@ hide_table_of_contents: true
 ### [Clase 22 - Delegados y expresiones lambda.](./01-introduccion/00-introduccion-net.md)
 > *Clase Math. - Uso de DateTime. - Strings. Métodos principales. Template strings. Clase StringBuilder. - Matrices y arrays.*
 
-### [Clase 23 - Hilos y concurrencia.](./01-introduccion/00-introduccion-net.md)
+### [Clase 23 - Programación multi-hilo y concurrencia.](./01-introduccion/00-introduccion-net.md)
 > *Clase Math. - Uso de DateTime. - Strings. Métodos principales. Template strings. Clase StringBuilder. - Matrices y arrays.*
 
 ### [Clase 24 - Eventos.](./01-introduccion/00-introduccion-net.md)

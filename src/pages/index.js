@@ -18,24 +18,23 @@ const features = [
     ),
   },
   {
-    title: 'Apuntes teóricos',
+    title: 'Clases',
     imageUrl: 'img/robot-apuntes.svg',
     description: (
       <>
-        <p>En esta sección encontrarán la explicación teórica de cada uno de los temas de la materia.</p>
+        <p>En esta sección encontrarán los apuntes de cada uno de los temas de la materia junto con ejercicios prácticos y teóricos.</p>
         <p>Recomendamos leer los apuntes antes y después de cada clase.</p>
-        <p><b>¡No dejes de practicar la teoría con los cuestionarios al final de cada módulo!</b></p>
+        <p><b>¡No dejes de practicar lo aprendido con los cuestionarios y ejercicios al final de cada módulo!</b></p>
       
       </>
     ),
   },
   {
-    title: 'Ejercicios',
+    title: 'Campus virtual',
     imageUrl: 'img/robot-programando.svg',
     description: (
       <>
-        <p>Muy pronto tendremos una nueva versión de la guía de ejercicios.</p>
-        <p><b>Por ahora seguiremos usando la guía que se encuentra en <a href="https://classroom.google.com/u/0/c/NTQ1MTg2NjM5NDBa">Google Classroom.</a></b></p>
+        <p>La planificación, las grabaciones de las clases y las calificaciones se encuentran en <b><a href="https://classroom.google.com/u/0/c/NTQ1MTg2NjM5NDBa">Google Classroom.</a></b></p>
       </>
     ),
   },
