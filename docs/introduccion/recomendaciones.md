@@ -1,6 +1,7 @@
 ---
 title: Recomendaciones
 sidebar_label: Recomendaciones
+sidebar_position: 9
 slug: /introduccion/recomendaciones
 hide_table_of_contents: true
 ---

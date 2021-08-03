@@ -1,6 +1,7 @@
 ---
 title: Exámenes parciales
 sidebar_label: Exámenes parciales
+sidebar_position: 4
 slug: /introduccion/examenes
 hide_table_of_contents: true
 ---

@@ -1,6 +1,7 @@
 ---
 title: Entorno de trabajo 
-sidebar_label: Entorno de trabajo 
+sidebar_label: Entorno de trabajo
+sidebar_position: 7
 slug: /introduccion/entorno-trabajo
 hide_table_of_contents: true
 ---

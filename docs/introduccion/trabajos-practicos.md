@@ -1,6 +1,7 @@
 ---
 title: Trabajos prácticos
 sidebar_label: Trabajos prácticos
+sidebar_position: 3
 slug: /introduccion/trabajos-practicos
 hide_table_of_contents: true
 ---

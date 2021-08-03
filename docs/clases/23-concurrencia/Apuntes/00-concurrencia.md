@@ -1,11 +1,13 @@
 ---
-title: Apuntes
-sidebar_label: Apuntes
-slug: /clases/hilos/apuntes/concurrencia
+title: Apuntes - Concurrencia
+sidebar_label: Concurrencia
+slug: /clases/concurrencia/apuntes/concurrencia
 hide_table_of_contents: false
+author: Mauricio Cerizza
+authorURL: https://github.com/mauricioCerizza
 ---
 
-## Concurrencia
+## ¿Qué es concurrencia?
 En programación hablamos de **concurrencia** cuando se ejecuta más de una tarea o proceso al mismo tiempo. 
 
 Esta habilidad es útil cuando necesitamos que una aplicación haga alguna cosa *mientras* está trabajando en algo más.  
@@ -15,7 +17,7 @@ La concurrencia es un aspecto clave de las aplicaciones modernas, permite que:
 + Un servidor pueda atender varias peticiones en simultáneo y no afectar los tiempos de respuesta ante periodos de alta demanda. 
 + Realizar tareas de computo complejas de manera más rápida y haciendo un uso más eficaz los recursos de la computadora. 
 
-En esta sección veremos las **dos formas de concurrencia** más comunes:  y **programación asincrónica <*asynchronous programming*>**.
+En esta sección veremos las **dos formas de concurrencia** más comunes: **programación multi-hilo <*multithreaded programming*>** y **programación asincrónica <*asynchronous programming*>**.
 
 ## Programación multi-hilo
 La **programación multi-hilo <*multithreaded programming*>** es una forma de concurrencia 

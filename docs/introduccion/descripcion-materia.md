@@ -1,6 +1,7 @@
 ---
 title: Descripción de la materia
 sidebar_label: Descripción de la materia
+sidebar_position: 0
 slug: /introduccion/descripcion-materia
 hide_table_of_contents: true
 ---

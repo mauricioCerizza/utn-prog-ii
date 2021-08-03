@@ -27,7 +27,7 @@ El [código fuente de .NET](https://github.com/dotnet) es público y es mantenid
 **Visual Basic** → La sintaxis de este lenguaje es la que más se asemeja al lenguaje humano (inglés), lo que facilita el trabajo para personas sin experiencia en el desarrollo de software. 
 
 ## Componentes de .NET
-![.NET Platform](../../../static/img/dotnet5_platform.png)
+![.NET Platform](/img/dotnet5_platform.png)
 
 #### Runtime
 Un runtime (entorno de ejecución, en español) es un programa encargado de ejecutar y administrar 

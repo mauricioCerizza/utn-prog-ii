@@ -2,6 +2,7 @@
 hide_title: true
 title: Slack
 sidebar_label: Slack
+sidebar_position: 6
 description: Nuestro canal de comunicación
 slug: /introduccion/slack
 ---

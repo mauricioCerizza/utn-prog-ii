@@ -1,6 +1,7 @@
 ---
 title: Regularización de la materia
 sidebar_label: Regularización de la materia
+sidebar_position: 2
 slug: /introduccion/regularizacion
 hide_table_of_contents: true
 ---

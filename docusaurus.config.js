@@ -10,7 +10,6 @@ module.exports = {
   organizationName: "MauricioCerizza",
   projectName: "utn-prog-ii",   
   themeConfig: {   
-    sidebarCollapsible: true,
     hideableSidebar: true,
     navbar: {
       title: "Programación II",
@@ -28,15 +27,14 @@ module.exports = {
         {
           to: "docs/clases/programa",
           activeBasePath: "docs/clases/",
-          label: "Apuntes Teóricos",
+          label: "Clases",
           position: "left",
         },
-/*         {
-          to: "docs/ejercicios/introduccion",
-          activeBasePath: "docs/ejercicios/",
-          label: "Ejercicios",
+        {
+          href: "https://classroom.google.com/u/0/w/NTQ1MTg2NjM5NDBa/t/all",
+          label: "Campus virtual",
           position: "left",
-        }, */
+        },
         {
           href: "http://www.sistemas-utnfra.com.ar/#/home",
           label: "Tecnicaturas UTN-Fra",
@@ -57,11 +55,7 @@ module.exports = {
             {
               label: "Clases",
               to: "docs/clases/programa",
-            },
-/*             {
-              label: "Ejercicios",
-              to: "docs/ejercicios/conceptos-basicos/ejercicio-01",
-            }, */
+            }
           ],
         },
         {
@@ -103,7 +97,7 @@ module.exports = {
           title: "Reportar un error",
           items: [
             {
-              html: "<a href=\"https://github.com/mauricioCerizza/utn-prog-ii/issues/new\" target=\"_blank\"><img src=\"/static/img/robot-repara.png\" alt=\"Reportar error\" width=60% height=60%></img></a>",
+              html: "<a href=\"https://github.com/mauricioCerizza/utn-prog-ii/issues/new\" target=\"_blank\"><img src=\"/img/robot-repara.png\" alt=\"Reportar error\" width=60% height=60%></img></a>",
             }
           ],
         },
@@ -119,14 +113,26 @@ module.exports = {
       "@docusaurus/preset-classic",
       {
         docs: {
+          path: 'docs',
+          sidebarCollapsible: true,
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
-          /* editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/", */
+          //editUrl: "https://github.com/mauricioCerizza/utn-prog-ii/edit/master/",
+          showLastUpdateAuthor: true,        
+          showLastUpdateTime: true,        
+          disableVersioning: false,
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
+      },
+    ],
+  ],
+  plugins: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        language: ["en", "es"],
+        removeDefaultStopWordFilter: true,        
       },
     ],
   ],

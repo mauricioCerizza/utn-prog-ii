@@ -1,11 +1,14 @@
 ---
 title: Antes de empezar
 sidebar_label: Antes de empezar
-slug: /apuntes/cuestionarios
+slug: /clases/introduccion
 hide_table_of_contents: true
 ---
 
 ### Apuntes
+
+| ![img](/img/download-pdf.png) | **[Descargar apuntes y ejercicios en PDF](/documentos/Programacion-II.pdf)** | 
+| :-------------------------------------: | :---: |
 
 
 ### Ejercicios prácticos
