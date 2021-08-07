@@ -1,5 +1,5 @@
 ---
-title: Concurrencia - Índice
+title: Índice - Programación multi-hilo y concurrencia.
 sidebar_label: Índice
 sidebar_position: 0
 slug: /concurrencia

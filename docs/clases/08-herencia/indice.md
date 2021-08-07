@@ -1,0 +1,17 @@
+---
+title: Índice - Herencia
+sidebar_label: Índice
+sidebar_position: 0
+slug: /herencia
+hide_table_of_contents: true
+hide_title: false
+---
+
+## Resumen
+
+## Apuntes
+
+## Ejercicios
+
+## Bibliografía
+

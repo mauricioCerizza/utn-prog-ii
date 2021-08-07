@@ -1,16 +1,18 @@
 ---
-title: Introducción a .NET y C# - Indice
+title: Índice - Introducción a .NET y C#
 sidebar_label: Indice
 sidebar_position: 0
-slug: /introduccion
-hide_table_of_contents: true
+slug: /clases/introduccion
+hide_table_of_contents: false
+hide_title: false
+author: 
+authorURL: 
 ---
-En esta sección
+## Resumen
+En esta asignatura haremos uso de la plataforma de desarrollo .NET y del lenguaje de programación C# para entender conceptos y prácticas que son comunes a muchas otras herramientas que se utilizan al desarrollar software. 
 
 ## Apuntes
 
 ## Ejercicios
-#### Consolidación
 
 ## Bibliografía
-+ Cleary, S. (2019). *Concurrency in C# Cookbook* (2nd edition). O'Reilly.

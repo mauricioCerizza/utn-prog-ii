@@ -1,7 +1,10 @@
 ---
-title: Introducción a C#
 sidebar_label: Introducción a C#
-slug: /apuntes/introduccion/introduccion-c-sharp
+slug: /clases/introduccion/apuntes/introduccion-c-sharp
+hide_table_of_contents: false
+hide_title: true
+author: 
+authorURL: 
 ---
 Durante nuestro viaje a través de las características comunes de los lenguajes de alto nivel y la programación orientada a objetos nos acompañará el lenguaje de programación C#. 
 
@@ -30,17 +33,17 @@ Lo primero que tendremos que hacer es [instalar Visual Studio Community Edition]
 
 Una vez instalado y ejecutado, nos mostrará la siguiente pantalla con acciones rápidas para arrancar:
 
-![Inicio Visual Studio](/clases/apuntes/introduccion/inicio-visual-studio.png)
+![Inicio Visual Studio](/clases/00-introduccion/apuntes/inicio-visual-studio.png)
 
 Elegiremos "Crear un proyecto". Lo siguiente que encontraremos es una serie de plantillas o templates de los distintos tipos de proyectos que podemos encarar con la plataforma. Elegiremos, para arrancar, "Aplicación de consola". *Asegúrense de consultar con su docente la versión indicada para la cursada.*
 
-![Template Consola Visual Studio](/clases/apuntes/introduccion/template-consola-vs.png)
+![Template Consola Visual Studio](/clases/00-introduccion/apuntes/template-consola-vs.png)
 
 Lo siguiente será elegir un nombre para el proyecto y otro para la solución (o el mismo) y presionar el botón "Crear". 
 
 Un __*proyecto*__ es una estructura que nos permitirá construir nuestros programas con .NET y compilarlos como una unidad independiente, mientras que a una __*solución*__ la podemos ver como una agrupadora de proyectos. Normalmente un programa de .NET está compuesto por varios proyectos inter-relacionados dentro de una solución. 
 
-![Template Consola Visual Studio](/clases/apuntes/introduccion/nombre_proyecto_vs.png)
+![Template Consola Visual Studio](/clases/00-introduccion/apuntes/nombre_proyecto_vs.png)
 
 #### Módulos de Visual Studio
 Como podemos observar rápidamente, Visual Studio se presenta como una interfaz de única página (SPI) compuesta por múltiples ventanas anidadas. Está de más decir que podremos administrar estas ventanas a gusto, todas soportan funcionalidades básicas como mover, cambiar el tamaño, ocultar y fijar. 

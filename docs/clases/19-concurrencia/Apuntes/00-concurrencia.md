@@ -1,5 +1,5 @@
 ---
-title: Apuntes - Concurrencia
+title: Apuntes - Programación multi-hilo y concurrencia.
 sidebar_label: Concurrencia
 slug: /clases/concurrencia/apuntes/concurrencia
 hide_table_of_contents: false

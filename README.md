@@ -2,21 +2,30 @@
 ***This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.***
 
 - [Cómo trabajar con el proyecto](#cómo-trabajar-con-el-proyecto)
+  - [Descargar el código fuente](#descargar-el-código-fuente)
   - [Ejecución local](#ejecución-local)
   - [Despliegue en producción](#despliegue-en-producción)
   - [Versionado de código fuente](#versionado-de-código-fuente)
   - [Generar apuntes en PDF](#generar-apuntes-en-pdf)
-- [Convenciones](#convenciones)
-  - [Estructura del proyecto](#estructura-del-proyecto)
+- [Estructura del proyecto](#estructura-del-proyecto)
+  - [Clases](#clases)
     - [Índice](#índice)
     - [Apuntes](#apuntes)
     - [Ejercitación práctica](#ejercitación-práctica)
-  - [Ejemplos de código](#ejemplos-de-código)
   - [Archivos estáticos](#archivos-estáticos)
+- [Convenciones](#convenciones)
+  - [Ejemplos de código](#ejemplos-de-código)
   - [Comentarios y pendientes](#comentarios-y-pendientes)
 
 ## Cómo trabajar con el proyecto
 Este proyecto es una web estática construida con el framework [Docusaurus 2](https://v2.docusaurus.io/). Para más detalles de su funcionamiento consultar la documentación oficial: https://docusaurus.io/docs.
+
+### Descargar el código fuente
+Para obtener el código fuente, ejecutar el siguiente comando en el directorio donde se desee descargar el proyecto:
+
+```git
+git clone https://github.com/mauricioCerizza/utn-prog-ii
+```
 
 ### Ejecución local
 Para correr el proyecto localmente ejecutar el siguiente comando desde el directorio raíz:
@@ -52,8 +61,23 @@ Para generar los apuntes en PDF se deberá ejecutar el siguiente comando desde e
 npx mr-pdf --initialDocURLs="https://mauriciocerizza.github.io/utn-prog-ii/docs/clases/programa" --contentSelector="article" --paginationSelector=".pagination-nav__item--next > a" --excludeSelectors=".margin-vert--xl a" --coverImage="https://upload.wikimedia.org/wikipedia/commons/6/67/UTN_logo.jpg" --coverTitle="Programación II" --pdfFormat="A4" --outputPDFFilename="static/clases/Programacion-II.pdf"
 ```
 
-## Convenciones
-### Estructura del proyecto
+## Estructura del proyecto
+```
+-> Directorio raíz
+  -> docs (páginas con markdown)
+    -> clases (temario con apuntes y ejercicios)
+      -> ##-tema (carpeta de un tema particular)
+        -> Apuntes (páginas .md de apuntes teóricos y cuestionario)
+        -> Ejercicios (páginas .md de ejercicios prácticos)
+    -> introduccion (introducción a la materia)
+  -> static (archivos estáticos)
+    -> base (estáticos de uso general.)
+    -> clases (estáticos para las páginas de clases, apuntes y ejercicios. Refleja la misma estructura.)
+    -> introducción (estáticos para las páginas de introducción a la materia)
+  -> src (código fuente base de la web)
+```
+
+### Clases
 Se deberá trabajar dentro de la carpeta `clases` la cual cuenta con varios directorios hijos, cada uno representando un tema de la materia. 
 
 Cada una de estas sub-carpetas se divide en 3 partes:
@@ -88,6 +112,20 @@ Al final de cada página de ejercicio podremos enlazar la ***resolución*** en c
 
 A medida que se agregan nuevos ejercicios, se deberá ir actualizando el ***índice*** para el tema en cuestión. 
 
+### Archivos estáticos
+Los archivos estáticos se deberán almacenar en la carpeta `static` la cual refleja una estructura similar a la carpeta `docs`.
+
+Cuando se necesite almacenar una imagen, diagrama, documento, o cualquier otro archivo estático, se deberá colocar en la carpeta correspondiente a donde esté ubicada la página donde se mostrará.
+
+Por ejemplo, si se trata de un diagrama que se mostrará en los ejercicios de colecciones, va en el directorio `static/clases/06-colecciones/Ejercicios/`. Si se tratara de una imagen para un apunte: `static/clases/06-colecciones/Apuntes/`.
+
+Para insertar una imagen con markdown se utiliza la siguiente sintaxis:
+
+```markdown
+![Descripción de la imagen](/directorio/imagen.png)
+``` 
+
+## Convenciones
 ### Ejemplos de código
 Para insertar fragmentos de código en la documentación se deberá utilizar la siguiente sintaxis:
 
@@ -102,19 +140,6 @@ Para insertar fragmentos de código en la documentación se deberá utilizar la 
 ````
 
 :fire: **NO utilizar imagenes para mostrar código, es dificil de mantener y no permite copiar y pegar.** 
-
-### Archivos estáticos
-Los archivos estáticos se deberán almacenar en la carpeta `static` la cual refleja una estructura similar a la carpeta `docs`.
-
-Cuando se necesite almacenar una imagen, diagrama, documento, o cualquier otro archivo estático, se deberá colocar en la carpeta correspondiente a donde esté ubicada la página donde se mostrará.
-
-Por ejemplo, si se trata de un diagrama que se mostrará en los ejercicios de colecciones, va en el directorio `static/clases/06-colecciones/Ejercicios/`. Si se tratara de una imagen para un apunte: `static/clases/06-colecciones/Apuntes/`.
-
-Para insertar una imagen con markdown se utiliza la siguiente sintaxis:
-
-```markdown
-![Descripción de la imagen](/directorio/imagen.png)
-``` 
 
 ### Comentarios y pendientes
 Para hacer un ***comentario*** en markdown se deberá usar la siguiente sintaxis:

@@ -1,5 +1,5 @@
 ---
-title: Cuestionario - Concurrencia
+title: Cuestionario - Programación multi-hilo y concurrencia.
 sidebar_label: Cuestionario
 slug: /concurrencia/cuestionario
 hide_table_of_contents: true

@@ -1,23 +1,26 @@
 ---
-title: Introducción a .NET
+title: Apuntes - Introducción a .NET y C#
 sidebar_label: Introducción a .NET
-slug: /apuntes/introduccion/introduccion-net
+slug: /clases/introduccion/apuntes/introduccion-net
+hide_table_of_contents: false
+hide_title: false
+author: 
+authorURL: 
 ---
 
-En esta asignatura haremos uso de la plataforma de desarrollo .NET y del lenguaje de programación C# para entender conceptos y prácticas que son comunes a muchas otras herramientas que se utilizan al desarrollar software. 
-
+## Introducción a .NET
 .NET (*pronunciado como “dot net”*) es una plataforma gratuita y de código abierto que nos provee una serie de herramientas y programas para construir fácilmente una gran variedad de software, así como el entorno necesario para ejecutarlo sobre distintas arquitecturas y sistemas operativos. 
 
-## Características de .NET
+### Características de .NET
 En esta sección se apuntará a introducir las principales características de la plataforma para que puedan alcanzar un entendimiento general sobre las herramientas que utilizaremos durante la cursada.
 
-### Multi-plataforma
+#### Multi-plataforma
 Existió una época donde esta plataforma sólo nos permitía trabajar para Windows, pero esos tiempos quedaron muy atrás. Desde la salida de .NET Core en 2016, podemos implementar nuestros sitios web, aplicaciones para servidores y programas de consola también en Linux y macOS. 
 
-### Open Source
+#### Open Source
 El [código fuente de .NET](https://github.com/dotnet) es público y es mantenido por miles de desarrolladores y compañias. Es soportado por [.NET foundation](https://dotnetfoundation.org/), una organización sin fines de lucro, la cual se encarga de promover el desarrollo y la colaboración alrededor del ecosistema de .NET.
 
-### Multi-lenguaje
+#### Multi-lenguaje
 .NET admite varios lenguajes de programación, los cuales se pueden utilizar para programar sobre la plataforma:
 
 **C#** → Lenguaje orientado a objetos con una sintaxis similar a C y JAVA.
@@ -26,8 +29,8 @@ El [código fuente de .NET](https://github.com/dotnet) es público y es mantenid
 
 **Visual Basic** → La sintaxis de este lenguaje es la que más se asemeja al lenguaje humano (inglés), lo que facilita el trabajo para personas sin experiencia en el desarrollo de software. 
 
-## Componentes de .NET
-![.NET Platform](/clases/apuntes/introduccion/dotnet5_platform.png)
+### Componentes de .NET
+![.NET Platform](/clases/00-introduccion/apuntes/dotnet5_platform.png)
 
 #### Runtime
 Un runtime (entorno de ejecución, en español) es un programa encargado de ejecutar y administrar 
