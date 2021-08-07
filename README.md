@@ -104,11 +104,7 @@ Para insertar fragmentos de código en la documentación se deberá utilizar la 
   \```
 ```
 
-:::Warning Alerta
-
-NO utilizar imagenes para mostrar código, es dificil de mantener y no permite copiar y pegar. 
-
-:::
+> :fire: **NO utilizar imagenes para mostrar código, es dificil de mantener y no permite copiar y pegar.** 
 
 ### Archivos estáticos
 Los archivos estáticos se deberán almacenar en la carpeta `static` la cual refleja una estructura similar a la carpeta `docs`.
