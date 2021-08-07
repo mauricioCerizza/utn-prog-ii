@@ -86,25 +86,22 @@ Se deberá generar un archivo `.md` por cada ejercicio, el cual deberá ser nomb
 
 Al final de cada página de ejercicio podremos enlazar la ***resolución*** en código y/o video.
 
-![Ejemplo enlace a resoluciones de ejercicios](./static/base/ejemplo-resolucion.png)
-
-
 A medida que se agregan nuevos ejercicios, se deberá ir actualizando el ***índice*** para el tema en cuestión. 
 
 ### Ejemplos de código
 Para insertar fragmentos de código en la documentación se deberá utilizar la siguiente sintaxis:
 
-```markdown
-  \```csharp
+````markdown
+  ```csharp
   public class Prueba
   {
     string s = "C# syntax highlighting"
     Console.WriteLine(s)
   }
-  \```
-```
+  ```
+````
 
-> :fire: **NO utilizar imagenes para mostrar código, es dificil de mantener y no permite copiar y pegar.** 
+:fire: **NO utilizar imagenes para mostrar código, es dificil de mantener y no permite copiar y pegar.** 
 
 ### Archivos estáticos
 Los archivos estáticos se deberán almacenar en la carpeta `static` la cual refleja una estructura similar a la carpeta `docs`.
