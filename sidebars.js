@@ -12,7 +12,7 @@ module.exports = {
   ],
   Clases: [    
     "clases/programa",
-    "clases/introduccion",
+    "clases/referencias",
     {
       type: 'category',
       label: 'Introducción a .NET y C#',

@@ -1,13 +1,13 @@
 ---
 title: Antes de empezar
 sidebar_label: Antes de empezar
-slug: /clases/introduccion
+slug: /clases/referencias
 hide_table_of_contents: true
 ---
 
 ### Apuntes
 
-| ![img](/base/download-pdf.png) | **[Descargar apuntes y ejercicios en PDF](/documentos/Programacion-II.pdf)** | 
+| ![img](/base/download-pdf.png) | **[Descargar apuntes y ejercicios en PDF](/clases/Programacion-II.pdf)** | 
 | :-------------------------------------: | :---: |
 
 
