@@ -7,71 +7,49 @@ hide_table_of_contents: true
 
 ## Primer parcial
 ### [Clase 01 - Introducción a .NET y C#](./01-introduccion/indice.md)
-*Características de .NET. - Entorno de ejecución. - Common Language Runtime. - Características de C#. - Proceso de compilación de C#. - Tiempos de compilación y ejecución. - Entry point. - Tipos de referencia y de valor. - Variables escalares y no escalares. *
+*Características de .NET. | Entorno de ejecución. | Common Language Runtime. | Características de C#. | Proceso de compilación de C#. | Tiempos de compilación y ejecución. | Entry point. | Tipos de referencia y de valor. | Variables escalares y no escalares.*
 
-### [Clase 02 - Manejo de fechas, matrices y strings](./01-introduccion/indice.md)
-> *Clase Math. - Uso de DateTime. - Strings. Métodos principales. Template strings. Clase StringBuilder. - Matrices y arrays.*
+### [Clase 02 - Programación orientada a objetos](./01-introduccion/indice.md)
 
-### [Clase 03 - Programación orientada a objetos](./01-introduccion/indice.md)
-> *Clase Math. - Uso de DateTime. - Strings. Métodos principales. Template strings. Clase StringBuilder. - Matrices y arrays.*
+### [Clase 03 - Clases y miembros estáticos](./01-introduccion/indice.md)
 
-### [Clase 04 - Clases y miembros estáticos](./01-introduccion/indice.md)
-> *Clase Math. - Uso de DateTime. - Strings. Métodos principales. Template strings. Clase StringBuilder. - Matrices y arrays.*
+### [Clase 04 - Sobrecarga](./01-introduccion/indice.md)
 
-### [Clase 05 - Sobrecarga](./01-introduccion/indice.md)
-> *Clase Math. - Uso de DateTime. - Strings. Métodos principales. Template strings. Clase StringBuilder. - Matrices y arrays.*
+### [Clase 05 - Windows Forms](./01-introduccion/indice.md)
 
-### [Clase 06 - Windows Forms](./01-introduccion/indice.md)
-> *Clase Math. - Uso de DateTime. - Strings. Métodos principales. Template strings. Clase StringBuilder. - Matrices y arrays.*
+### [Clase 06 - Colecciones](./01-introduccion/indice.md)
 
-### [Clase 07 - Colecciones](./01-introduccion/indice.md)
-> *Clase Math. - Uso de DateTime. - Strings. Métodos principales. Template strings. Clase StringBuilder. - Matrices y arrays.*
+### [Clase 07 - Encapsulamiento, propiedades e indexadores.](./01-introduccion/indice.md)
 
-### [Clase 08 - Encapsulamiento, propiedades e indexadores.](./01-introduccion/indice.md)
-> *Clase Math. - Uso de DateTime. - Strings. Métodos principales. Template strings. Clase StringBuilder. - Matrices y arrays.*
-
-### [Clase 09 - Herencia.](./01-introduccion/indice.md)
-> *Clase Math. - Uso de DateTime. - Strings. Métodos principales. Template strings. Clase StringBuilder. - Matrices y arrays.*
+### [Clase 08 - Herencia.](./01-introduccion/indice.md)
  
-### [Clase 10 - Polimorfismo.](./01-introduccion/indice.md)
-> *Clase Math. - Uso de DateTime. - Strings. Métodos principales. Template strings. Clase StringBuilder. - Matrices y arrays.*
+### [Clase 09 - Polimorfismo.](./01-introduccion/indice.md)
 
-### [Clase 11 - Clases y métodos abstractos.](./01-introduccion/indice.md)
-> *Clase Math. - Uso de DateTime. - Strings. Métodos principales. Template strings. Clase StringBuilder. - Matrices y arrays.*
+### [Clase 10 - Clases y métodos abstractos.](./01-introduccion/indice.md)
 
 ## Segundo parcial
-### [Clase 15 - Excepciones.](./01-introduccion/indice.md)
-> *Clase Math. - Uso de DateTime. - Strings. Métodos principales. Template strings. Clase StringBuilder. - Matrices y arrays.*
+### [Clase 11 - Excepciones.](./01-introduccion/indice.md)
 
-### [Clase 16 - Pruebas unitarias.](./01-introduccion/indice.md)
-> *Clase Math. - Uso de DateTime. - Strings. Métodos principales. Template strings. Clase StringBuilder. - Matrices y arrays.*
+### [Clase 12 - Pruebas unitarias.](./01-introduccion/indice.md)
 
-### [Clase 17 - Tipos Genéricos.](./01-introduccion/indice.md)
-> *Clase Math. - Uso de DateTime. - Strings. Métodos principales. Template strings. Clase StringBuilder. - Matrices y arrays.*
+### [Clase 13 - Tipos Genéricos.](./01-introduccion/indice.md)
 
-### [Clase 18 - Interfaces.](./01-introduccion/indice.md)
-> *Clase Math. - Uso de DateTime. - Strings. Métodos principales. Template strings. Clase StringBuilder. - Matrices y arrays.*
+### [Clase 14 - Interfaces.](./01-introduccion/indice.md)
 
-### [Clase 19 - Archivos y Serialización.](./01-introduccion/indice.md)
-> *Clase Math. - Uso de DateTime. - Strings. Métodos principales. Template strings. Clase StringBuilder. - Matrices y arrays.*
+### [Clase 15 - Archivos y Serialización.](./01-introduccion/indice.md)
 
-### [Clase 20 - Introducción a SQL.](./01-introduccion/indice.md)
-> *Clase Math. - Uso de DateTime. - Strings. Métodos principales. Template strings. Clase StringBuilder. - Matrices y arrays.*
+### [Clase 16 - Introducción a SQL.](./01-introduccion/indice.md)
 
-### [Clase 21 - Conexión a bases de datos.](./01-introduccion/indice.md)
-> *Clase Math. - Uso de DateTime. - Strings. Métodos principales. Template strings. Clase StringBuilder. - Matrices y arrays.*
+### [Clase 17 - Conexión a bases de datos.](./01-introduccion/indice.md)
 
-### [Clase 22 - Delegados y expresiones lambda.](./01-introduccion/indice.md)
-> *Clase Math. - Uso de DateTime. - Strings. Métodos principales. Template strings. Clase StringBuilder. - Matrices y arrays.*
+### [Clase 18 - Delegados y expresiones lambda.](./01-introduccion/indice.md)
 
-### [Clase 23 - Programación multi-hilo y concurrencia.](./01-introduccion/indice.md)
-> *Clase Math. - Uso de DateTime. - Strings. Métodos principales. Template strings. Clase StringBuilder. - Matrices y arrays.*
+### [Clase 19 - Programación multi-hilo y concurrencia.](./23-concurrencia/indice.md)
+*Concepto de concurrencia. | Programación multi-hilo. Conceptos de proceso e hilo. |*
 
-### [Clase 24 - Eventos.](./01-introduccion/indice.md)
-> *Clase Math. - Uso de DateTime. - Strings. Métodos principales. Template strings. Clase StringBuilder. - Matrices y arrays.*
+### [Clase 20 - Eventos.](./01-introduccion/indice.md)
 
-### [Clase 25 - Herramientas adicionales de C#.](./01-introduccion/indice.md)
-> *Métodos de extensión. - Auto-properties. - Parámetros opcionales. - *
+### [Clase 21 - Herramientas adicionales de C#.](./01-introduccion/indice.md)
+*Métodos de extensión. - Auto-properties. - Parámetros opcionales. -*
 
 ### [Clase Extra - Introducción a la programación web.](./01-introduccion/indice.md)
-> *Métodos de extensión. - Auto-properties. - Parámetros opcionales. - *

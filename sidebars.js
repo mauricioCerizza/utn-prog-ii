@@ -67,7 +67,7 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Programación multi-hilos y concurrencia',
+      label: 'Programación multi-hilo y concurrencia',
       collapsible: true,
       collapsed: true,
       items:

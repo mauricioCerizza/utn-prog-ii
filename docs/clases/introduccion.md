@@ -7,7 +7,7 @@ hide_table_of_contents: true
 
 ### Apuntes
 
-| ![img](/img/download-pdf.png) | **[Descargar apuntes y ejercicios en PDF](/documentos/Programacion-II.pdf)** | 
+| ![img](/base/download-pdf.png) | **[Descargar apuntes y ejercicios en PDF](/documentos/Programacion-II.pdf)** | 
 | :-------------------------------------: | :---: |
 
 

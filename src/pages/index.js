@@ -9,7 +9,7 @@ import styles from './styles.module.css';
 const features = [
   {
     title: 'Introducción a la materia',
-    imageUrl: 'img/robot-intro.svg',
+    imageUrl: 'base/robot-intro.svg',
     description: (
       <>
         <p>Todo lo que necesitás saber para arrancar la cursada.</p>
@@ -19,7 +19,7 @@ const features = [
   },
   {
     title: 'Clases',
-    imageUrl: 'img/robot-apuntes.svg',
+    imageUrl: 'base/robot-apuntes.svg',
     description: (
       <>
         <p>En esta sección encontrarán los apuntes de cada uno de los temas de la materia junto con ejercicios prácticos y teóricos.</p>
@@ -31,7 +31,7 @@ const features = [
   },
   {
     title: 'Campus virtual',
-    imageUrl: 'img/robot-programando.svg',
+    imageUrl: 'base/robot-programando.svg',
     description: (
       <>
         <p>La planificación, las grabaciones de las clases y las calificaciones se encuentran en <b><a href="https://classroom.google.com/u/0/c/NTQ1MTg2NjM5NDBa">Google Classroom.</a></b></p>

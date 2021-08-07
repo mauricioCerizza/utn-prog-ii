@@ -1,30 +1,33 @@
 ---
-title: Apuntes - Concurrencia
-sidebar_label: Concurrencia
-slug: /clases/concurrencia/apuntes/concurrencia
+sidebar_label: Programación multi-hilo
+slug: /clases/concurrencia/apuntes/multihilo
 hide_table_of_contents: false
+hide_title: true
 author: Mauricio Cerizza
 authorURL: https://github.com/mauricioCerizza
 ---
 
-## ¿Qué es concurrencia?
-En programación hablamos de **concurrencia** cuando se ejecuta más de una tarea o proceso al mismo tiempo. 
-
-Esta habilidad es útil cuando necesitamos que una aplicación haga alguna cosa *mientras* está trabajando en algo más.  
-
-La concurrencia es un aspecto clave de las aplicaciones modernas, permite que:
-+ Los usuarios finales puedan interactuar con la interfaz de la aplicación de manera no-bloqueante. 
-+ Un servidor pueda atender varias peticiones en simultáneo y no afectar los tiempos de respuesta ante periodos de alta demanda. 
-+ Realizar tareas de computo complejas de manera más rápida y haciendo un uso más eficaz los recursos de la computadora. 
-
-En esta sección veremos las **dos formas de concurrencia** más comunes: **programación multi-hilo <*multithreaded programming*>** y **programación asincrónica <*asynchronous programming*>**.
-
 ## Programación multi-hilo
-La **programación multi-hilo <*multithreaded programming*>** es una forma de concurrencia 
+Un **proceso** es un programa en ejecución que tiene asignados recursos tales como memoria e hilos. 
 
-Un **hilo <*thread*>**, también llamado hebra o subproceso, es un ejecutor de tareas independiente. 
+Un **hilo <*thread*>**, también llamado hebra o subproceso, es la unidad básica a la que un sistema operativo asigna tiempo de procesamiento. Son los encargados de ejecutar nuestro código sentencia a sentencia. 
 
-Un **proceso** está compuesto por múltiples hilos y cada uno de esos hilos puede estar realizando una tarea distinta en paralelo. Todos los hilos de un mismo proceso comparten los mismos recursos del sistema operativo.
+Por defecto cada proceso tiene un único hilo, es decir, sólo puede procesar una tarea a la vez. La **programación multi-hilo <*multithreaded programming*>** permite que un proceso se ejecute sobre múltiples hilos y cada uno de esos hilos esté realizando una tarea distinta en paralelo. 
+
+Todos los hilos de un mismo proceso comparten los mismos recursos asignados por el sistema operativo.
+
+[//]: # "TODO Ejemplo del supermercado"
+
+### Multitarea apropiativa
+Por cada núcleo de la CPU, se puede ejecutar a lo mucho un proceso en cada momento. Windows y otros sistemas operativos modernos simulan la ejecución paralela de tareas dividiendo el tiempo de procesamiento entre los hilos, permitiendo que se vayan ejecutando uno después de otro en pequeñas fracciones de tiempo. El hilo que se está ejecutando es suspendido cuando termina su fracción de tiempo, luego el procesador permite que otro hilo se ejecute por el mismo periodo de tiempo. Esta forma de simular el paralelismo recibe el nombre de **multitarea apropiativa <*preemptive multitasking*>**. 
+
+Cuando Windows cambia de un hilo a otro, guarda el contexto donde se ejecutó el hilo actual y recarga el contexto del próximo hilo en la cola de ejecución. Hay que ser conscientes de que esto también consume tiempo y recursos. 
+
+:::caution Advertencia
+
+No siempre tener más hilos va a mejorar el rendimiento, se deben realizar pruebas de rendimiento comparando la ejecución de procesos con y sin múltiples hilos.
+
+:::
 
 Cada hilo tiene una **pila de ejecución <*call stack*>** independiente, esto significa que cada uno maneja su propia secuencia de funciones a ejecutar. 
 

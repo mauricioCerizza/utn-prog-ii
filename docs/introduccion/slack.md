@@ -7,7 +7,7 @@ description: Nuestro canal de comunicación
 slug: /introduccion/slack
 ---
 
-![Slack Logo](./../../static/img/slack-logo-thumb.png)
+![Slack Logo](/introduccion/slack-logo-thumb.png)
 
 Será nuestro medio de comunicación tanto con los profesores como entre los alumnos. 
 

@@ -4,6 +4,7 @@ title: Ejercicio C02 - Simulador de atención a clientes
 author: Federico Dávila
 authorURL: https://github.com/FedeDavila1984
 hide_table_of_contents: true
+hide_title: false
 ---
 ---
 ### Consigna
@@ -35,5 +36,5 @@ Para ello se pide crear las siguientes clases:
 
 
 ### Resolución
-| ![img](/img/youtube.svg) | Video | ![img](/img/github.svg) | Código |
+| ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | Código |
 | :-------------------------------------: | :---: | :------------------------------------: | :----: |

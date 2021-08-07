@@ -6,7 +6,7 @@ module.exports = {
   baseUrl: "/utn-prog-ii/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
+  favicon: "base/favicon.ico",
   organizationName: "MauricioCerizza",
   projectName: "utn-prog-ii",   
   themeConfig: {   
@@ -15,7 +15,7 @@ module.exports = {
       title: "Programación II",
       logo: {
         alt: "UTN Logo",
-        src: "img/logo.svg",
+        src: "base/logo.svg",
       },
       items: [
         {
@@ -97,7 +97,7 @@ module.exports = {
           title: "Reportar un error",
           items: [
             {
-              html: "<a href=\"https://github.com/mauricioCerizza/utn-prog-ii/issues/new\" target=\"_blank\"><img src=\"/img/robot-repara.png\" alt=\"Reportar error\" width=60% height=60%></img></a>",
+              html: "<a href=\"https://github.com/mauricioCerizza/utn-prog-ii/issues/new\" target=\"_blank\"><img src=\"/base/robot-repara.png\" alt=\"Reportar error\" width=60% height=60%></img></a>",
             }
           ],
         },
