@@ -86,7 +86,7 @@ Se deberá generar un archivo `.md` por cada ejercicio, el cual deberá ser nomb
 
 Al final de cada página de ejercicio podremos enlazar la ***resolución*** en código y/o video.
 
-![Ejemplo enlace a resoluciones de ejercicios](/base/ejemplo-resolucion.png)
+![Ejemplo enlace a resoluciones de ejercicios](./static/base/ejemplo-resolucion.png)
 
 
 A medida que se agregan nuevos ejercicios, se deberá ir actualizando el ***índice*** para el tema en cuestión. 
