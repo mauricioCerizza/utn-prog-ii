@@ -108,7 +108,7 @@ module.exports = {
           title: "Reportar un error",
           items: [
             {
-              html: "<a href=\"https://github.com/mauricioCerizza/utn-prog-ii/issues/new\" target=\"_blank\"><img src=\"/static/base/robot-repara.png\" alt=\"Reportar error\" width=60% height=60%></img></a>",
+              html: "<a href=\"https://github.com/mauricioCerizza/utn-prog-ii/issues/new\" target=\"_blank\"><img src=\"https://i.im.ge/2021/08/08/01RjT.md.png\" alt=\"Reportar error\" width=60% height=60%></img></a>",
             }
           ],
         },

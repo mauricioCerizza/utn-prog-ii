@@ -1,6 +1,6 @@
 ---
 title: Índice - Introducción a .NET y C#
-sidebar_label: Indice
+sidebar_label: Índice
 sidebar_position: 0
 slug: /clases/introduccion
 hide_table_of_contents: false
