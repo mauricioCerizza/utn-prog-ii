@@ -31,8 +31,19 @@ module.exports = {
           position: "left",
         },
         {
+          to: "docs/evaluaciones",
+          activeBasePath: "docs/evaluaciones",
+          label: "Evaluaciones",
+          position: "left",
+        },
+        {
           href: "https://classroom.google.com/u/0/w/NTQ1MTg2NjM5NDBa/t/all",
           label: "Campus virtual",
+          position: "left",
+        },
+        {
+          href: "https://join.slack.com/t/utn-prog2/shared_invite/zt-a7q2ca78-HDLaVbxtzMLSzVrxct3xWg",
+          label: "Slack",
           position: "left",
         },
         {
@@ -55,6 +66,10 @@ module.exports = {
             {
               label: "Clases",
               to: "docs/clases/programa",
+            },
+            {
+              label: "Evaluaciones",
+              to: "docs/evaluaciones",
             }
           ],
         },
@@ -80,24 +95,20 @@ module.exports = {
               href: "https://docs.microsoft.com/es-es/dotnet/",
             },
             {
-              label: "Github - Prof. Federico Dávila",
-              href: "https://github.com/FedeDavila1984/utn_prog_y_lab_II",
+              label: "Github - Programación y Laboratorio II",
+              href: "https://github.com/codeutnfra/programacion_2_laboratorio_2",
             },
             {
-              label: "Github - Prof. Ezequiel Oggioni",
-              href: "https://github.com/EzequielOggioni",
-            },
-            {
-              label: "Github - Prof. Mauricio Cerizza",
-              href: "https://github.com/mauricioCerizza/programacion-laboratorio-II",
-            },
+              label: "You Tube - UTN FRA",
+              href: "https://www.youtube.com/channel/UC2Z2ADpWCh4aTHz07K3os2g/featured",
+            }
           ],
         },
         {
           title: "Reportar un error",
           items: [
             {
-              html: "<a href=\"https://github.com/mauricioCerizza/utn-prog-ii/issues/new\" target=\"_blank\"><img src=\"/base/robot-repara.png\" alt=\"Reportar error\" width=60% height=60%></img></a>",
+              html: "<a href=\"https://github.com/mauricioCerizza/utn-prog-ii/issues/new\" target=\"_blank\"><img src=\"/static/base/robot-repara.png\" alt=\"Reportar error\" width=60% height=60%></img></a>",
             }
           ],
         },

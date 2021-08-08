@@ -13,7 +13,7 @@ const features = [
     description: (
       <>
         <p>Todo lo que necesitás saber para arrancar la cursada.</p>
-        <p>Condiciones de aprobación, canales de comunicación, herramientas a instalar, guía de estilo, bibliografía y más.</p>
+        <p>Condiciones de aprobación, canales de comunicación, herramientas a instalar, guía de estilo, y más.</p>
       </>
     ),
   },
@@ -22,19 +22,45 @@ const features = [
     imageUrl: 'base/robot-apuntes.svg',
     description: (
       <>
-        <p>En esta sección encontrarán los apuntes de cada uno de los temas de la materia junto con ejercicios prácticos y teóricos.</p>
-        <p>Recomendamos leer los apuntes antes y después de cada clase.</p>
-        <p><b>¡No dejes de practicar lo aprendido con los cuestionarios y ejercicios al final de cada módulo!</b></p>
+        <p>En esta sección encontrarán los <b>apuntes</b> de cada uno de los temas de la materia junto con <b>ejercicios</b> prácticos y teóricos.</p>
       
       </>
     ),
   },
   {
-    title: 'Campus virtual',
+    title: 'Evaluaciones',
     imageUrl: 'base/robot-programando.svg',
     description: (
       <>
-        <p>La planificación, las grabaciones de las clases y las calificaciones se encuentran en <b><a href="https://classroom.google.com/u/0/c/NTQ1MTg2NjM5NDBa">Google Classroom.</a></b></p>
+        <p>Aquí encontrarán <b>modelos de parciales</b> para ambas materias y las consignas de los <b>trabajos prácticos</b> de Laboratorio de Computación.</p>
+      </>
+    ),
+  },
+  {
+    title: 'Campus virtual',
+    imageUrl: 'base/campus.svg',
+    description: (
+      <>
+        <p>La planificación, las grabaciones de las clases y las calificaciones se encuentran en <b><a target="_blank" href="https://classroom.google.com/u/0/c/NTQ1MTg2NjM5NDBa">Google Classroom</a></b>.</p>
+      </>
+    ),
+  },
+  {
+    title: 'Slack',
+    imageUrl: 'base/robots-hablando.svg',
+    description: (
+      <>
+        <p>Nos mantenemos al día y nos comunicamos afuera del aula a través de <b><a target="_blank" href="https://join.slack.com/t/utn-prog2/shared_invite/zt-a7q2ca78-HDLaVbxtzMLSzVrxct3xWg">Slack</a></b>.</p>
+      </>
+    ),
+  },
+  {
+    title: 'Ejercicios resueltos',
+    imageUrl: 'base/resueltos.svg',
+    description: (
+      <>
+        <p>Encontrarás la resolución de algunos ejercicios en <b><a target="_blank" href="https://github.com/codeutnfra/programacion_2_laboratorio_2">Github </a></b> 
+        y en nuestro canal de <b><a target="_blank" href="https://www.youtube.com/channel/UC2Z2ADpWCh4aTHz07K3os2g/featured">You Tube</a></b>.</p>
       </>
     ),
   },
