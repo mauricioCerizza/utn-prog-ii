@@ -8,10 +8,15 @@ hide_title: false
 ---
 
 ## Resumen
+En esta sección desarrollaremos el concepto de formulario: explicaremos que son, para que sirven y como trabajar con ellos.
 
 ## Apuntes
+[Definicion](./Apuntes/00-definicion.md)
+
+
 
 ## Ejercicios
+#### Consolidación
+
 
 ## Bibliografía
-
