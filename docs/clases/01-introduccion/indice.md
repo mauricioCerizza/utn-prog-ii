@@ -11,6 +11,8 @@ authorURL:
 ## Resumen
 En esta asignatura haremos uso de la plataforma de desarrollo .NET y del lenguaje de programación C# para entender conceptos y prácticas que son comunes a muchas otras herramientas que se utilizan al desarrollar software. 
 
+Se apuntará a introducir las principales características de la plataforma y del lenguaje para que puedan alcanzar un entendimiento general sobre las herramientas que utilizaremos durante la cursada.
+
 ## Apuntes
 
 ## Ejercicios

@@ -13,18 +13,6 @@ Tal vez algunas de las características de este lenguaje les parezcan similares 
 ## ¡Hello world!
 Exploremos el entorno de trabajo y pongamos en ejecución nuestra primera aplicación de consola.
 
-### Visual Studio
-Podríamos usar Notepad o algún otro editor de texto para escribir código C#, pero Visual Studio es una mejor opción ya que es un IDE. 
-
-**IDE** es un acrónimo para **Integrated Development Environment** (Entorno de Desarrollo Integrado, en español), una aplicación que proporciona todos los servicios y herramientas necesarios para desarrollar software (editor de texto, diseñador visual, administrador de archivos, debugger, entre otras). 
-
-:::note Nota
-
-NO confundir con __*Visual Studio Code*__, el cual es un excelente **editor de código** open source, gratuito y multiplataforma. 
-
-Si bien se puede programar con C# en editores de código, Visual Studio (*no Code*) es más completo y especializado en el desarrollo sobre la plataforma .NET.   
-
-:::
 
 #### Instalación
 Lo primero que tendremos que hacer es [instalar Visual Studio Community Edition](https://visualstudio.microsoft.com/es/), si es que aún no lo tenemos. Se puede descargar tanto para Windows como para Mac. Aún no existe una versión para Linux. 

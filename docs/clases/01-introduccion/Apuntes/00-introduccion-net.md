@@ -12,7 +12,6 @@ authorURL:
 .NET (*pronunciado como “dot net”*) es una plataforma gratuita y de código abierto que nos provee una serie de herramientas y programas para construir fácilmente una gran variedad de software, así como el entorno necesario para ejecutarlo sobre distintas arquitecturas y sistemas operativos. 
 
 ### Características de .NET
-En esta sección se apuntará a introducir las principales características de la plataforma para que puedan alcanzar un entendimiento general sobre las herramientas que utilizaremos durante la cursada.
 
 #### Multi-plataforma
 Existió una época donde esta plataforma sólo nos permitía trabajar para Windows, pero esos tiempos quedaron muy atrás. Desde la salida de .NET Core en 2016, podemos implementar nuestros sitios web, aplicaciones para servidores y programas de consola también en Linux y macOS. 
