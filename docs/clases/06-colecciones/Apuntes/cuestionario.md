@@ -16,3 +16,21 @@ authorURL:
 6. ¿Por qué piensa que las colas y pilas no traen un método para ordenarlas? Piense en el uso de dichas colecciones. 
 7. ¿Cuál es la diferencia entre colas y pilas genéricas y no-genéricas?
 8. ¿Cual es la salida del siguiente código?
+
+```csharp
+short cantidad = 4;
+Queue<int> cola = new Queue<int>();
+Stack<int> pila = new Stack<int>();
+
+for(int i = 0; i <= cantidad * 2; i += 2 ){
+    cola.Enqueue(i);
+}
+
+foreach(int i in cola){
+    pila.Push(i);
+}
+
+foreach(int i in pila){
+    Console.Write("{0}, ",i );
+}
+```

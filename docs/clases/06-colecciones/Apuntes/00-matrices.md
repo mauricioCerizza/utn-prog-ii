@@ -14,7 +14,7 @@ Las matrices, también llamadas arrays, arreglos o vectores, son estructuras de 
 ### Dimensionalidad 
 Las matrices pueden ser **unidimensionales**, **bidimensionales** o **multidimensionales**.
 
-Las matrices unidimensionales tienen una sola dimensión. , es decir, tener una sola dimensión. multidimensionales. 
+Las matrices unidimensionales tienen una sola dimensión. Las matrices que tiene muchas dimensiones son multidimensionales. 
 
 ### Tamaño fijo
 La cantidad y el tamaño de las dimensiones son establecidos al momento de instanciar la matriz **y no pueden ser cambiados**. Si necesitamos alterar el tamaño de un array, tendremos que instanciar uno nuevo con distinta longitud y migrar los datos almacenados en el array original. 
