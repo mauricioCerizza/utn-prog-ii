@@ -30,22 +30,12 @@ module.exports = {
           label: "Clases",
           position: "left",
         },
-        {
+/*         {
           to: "docs/evaluaciones",
           activeBasePath: "docs/evaluaciones",
           label: "Evaluaciones",
           position: "left",
-        },
-        {
-          href: "https://classroom.google.com/u/0/w/NTQ1MTg2NjM5NDBa/t/all",
-          label: "Campus virtual",
-          position: "left",
-        },
-        {
-          href: "https://join.slack.com/t/utn-prog2/shared_invite/zt-a7q2ca78-HDLaVbxtzMLSzVrxct3xWg",
-          label: "Slack",
-          position: "left",
-        },
+        }, */
         {
           href: "http://www.sistemas-utnfra.com.ar/#/home",
           label: "Tecnicaturas UTN-Fra",
@@ -67,10 +57,10 @@ module.exports = {
               label: "Clases",
               to: "docs/clases/programa",
             },
-            {
+/*             {
               label: "Evaluaciones",
               to: "docs/evaluaciones",
-            }
+            } */
           ],
         },
         {
@@ -144,7 +134,7 @@ module.exports = {
       {
         language: ["en", "es"],
         removeDefaultStopWordFilter: true,        
-      },
+      }
     ],
   ],
 };

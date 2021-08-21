@@ -1,5 +1,5 @@
 ---
-title: Índice - Clases y métodos estáticos
+title: Índice - Métodos estáticos
 sidebar_label: Índice
 sidebar_position: 0
 slug: /clases/estaticos

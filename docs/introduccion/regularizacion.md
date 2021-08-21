@@ -13,3 +13,9 @@ Para acceder a la instancia de examen final se deberá:
 
 ### Promoción de la materia
 Para alcanzar la promoción directa, además de cumplir las condiciones de regularización antes mencionadas, se deberá aprobar ambos parciales con nota 6 o más. 
+
+:::caution Advertencia
+
+El criterio de evaluación para alcanzar la aprobación (nota 4) o la promoción (nota 6+) queda a criterio del docente a cargo. Deberán ser consultados directamente al docente de su comisión.
+
+:::

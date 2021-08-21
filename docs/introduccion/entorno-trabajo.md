@@ -1,6 +1,6 @@
 ---
-title: Entorno de trabajo 
-sidebar_label: Entorno de trabajo
+title: Preparar el entorno de trabajo 
+sidebar_label: Preparar el entorno de trabajo
 sidebar_position: 7
 slug: /introduccion/entorno-trabajo
 hide_table_of_contents: false
@@ -72,9 +72,9 @@ Los **atajos de teclado (shortcuts)** son muy útiles para escribir y modificar 
 Para más información lee el siguiente artículo: [Default keyboard shortcuts in Visual Studio](https://docs.microsoft.com/en-us/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio?view=vs-2019).
 
 #### Snippets
-Los **fragmentos de código (code snippets)** son pequeños bloques de código reutilizable que puede ser insertado fácilmente en un archivo de código a través de un comando o combinación de teclas. 
+Los **fragmentos de código (code snippets)** son pequeños bloques de código reutilizable que pueden ser insertados fácilmente en un archivo de código a través de un comando o combinación de teclas. 
 
-Visual Studio trae por defecto una serie de fragmentos de código y además nos permite generar nuestros propios snippets. 
+Visual Studio trae por defecto una serie de fragmentos de código y además nos permite crear nuevos. 
 
 Para más información lee el siguiente artículo: [Code snippets](https://docs.microsoft.com/en-us/visualstudio/ide/code-snippets?view=vs-2019).
 
@@ -91,7 +91,7 @@ Pueden encontrarlos todos en [Visual Studio Marketplace](https://marketplace.vis
 ## Entorno de base de datos
 ### Instalación del entorno de base de datos
 [//]: # "TODO profundizar"
-Sobre el final de materia necesitaremos un motor y un IDE especializado para manejo de base de datos.
+Sobre el final de materia necesitaremos un motor y un IDE especializados para trabajo con bases de datos.
 
 * __SQL Server (Desarrollador):__ https://www.microsoft.com/es-es/sql-server/sql-server-downloads
 * __SQL Management Studio:__ https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15

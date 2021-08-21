@@ -36,4 +36,4 @@ Crear un proyecto de Windows Forms con un RichTextBox y un Label dentro.
 
 ### Resolución
 | ![img](/base/youtube.svg) | Video | ![img](/base/github.svg) | Código |
-| :-------------------------------------: | :---: | :------------------------------------: | :----: |
+| :-----------------------: | :---: | :----------------------: | :----: |
