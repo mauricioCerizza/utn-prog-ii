@@ -8,7 +8,8 @@ hide_title: false
 ---
 
 ## Resumen
-
+En esta sección abordaremos los tipos que ofrece .NET para almacenar multiples valores en una sola variable.
+    
 ## Apuntes
 
 [Matrices](./Apuntes/00-matrices.md)

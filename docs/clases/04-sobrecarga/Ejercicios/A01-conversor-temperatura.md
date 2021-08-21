@@ -10,7 +10,7 @@ hide_title: false
 ### Consigna
 Crear un proyecto de Consola y agregar tres clase **Fahrenheit, Celsius y Kelvin**
 
-1. Realizar la implementació necesaria para poder convertir una temperatura en sus ditintas unidades de medida (Fahrenheit, Celsius y Kelvin).
+1. Realizar la implementación necesaria para poder convertir una temperatura en sus ditintas unidades de medida (Fahrenheit, Celsius y Kelvin).
 2. Teniendo en cuanta que:
 
     F = C * (9/5) + 32
