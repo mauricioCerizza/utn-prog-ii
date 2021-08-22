@@ -18,7 +18,11 @@
   - [Comentarios y pendientes](#comentarios-y-pendientes)
   - [Bibliografía y referencias](#bibliografía-y-referencias)
     - [Citar libros](#citar-libros)
+      - [Formato](#formato)
+      - [Ejemplo](#ejemplo)
     - [Citar páginas web](#citar-páginas-web)
+      - [Formato](#formato-1)
+      - [Ejemplo](#ejemplo-1)
     - [Enlaces a contenido externo en apuntes](#enlaces-a-contenido-externo-en-apuntes)
 
 ## Cómo trabajar con el proyecto
@@ -162,22 +166,22 @@ Para marcar una ***tarea pendiente***, se deberá dejar un comentario con el **p
 La bibliografía y material de referencia de cada sección deberá citarse en la página del índice siguiendo el formato detallado a continuación.
 
 #### Citar libros
-```
-`Apellido e iniciales de autor/es`. `Título del capítulo`. En `Título del libro en *cursiva*` (`Edición`, `Volumen`, `Páginas`). `Editorial`.
-```
 
-```
+##### Formato
+
+`Apellido e iniciales de autor/es`. *`Título del libro en cursiva`* (`Edición`, `Volumen`, `Páginas`). `Editorial`.
+
+##### Ejemplo
+
 Price, M. J. (2020). *C#9 and .NET 5 - Modern Cross-Platform Development.* (5th ed., pp. 41-202). Packt Publishing.
-```
 
 #### Citar páginas web
-```
-`Título del artículo o página en *cursiva*`. `Nombre de la web donde se encuentra el artículo`. `Enlace`.
-```
 
-```
+##### Formato
+*`Título del artículo o página en cursiva`*. `Nombre de la web donde se encuentra el artículo`. `Enlace`.
+
+##### Ejemplo
 *.NET Architectural Components*. Microsoft Docs. https://docs.microsoft.com/en-us/dotnet/standard/components.
-```
 
 #### Enlaces a contenido externo en apuntes
 También se puede agregar a los apuntes artículos o información externa en forma de enlace.
