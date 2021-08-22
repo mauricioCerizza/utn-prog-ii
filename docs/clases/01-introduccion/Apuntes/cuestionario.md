@@ -8,9 +8,11 @@ author: Mauricio Cerizza
 authorURL: https://github.com/mauricioCerizza
 ---
 
+### .NET
 1. ¿Cómo se categorizan las versiones de .NET? Explique su relación con las políticas de soporte y mantenimiento de dichas versiones.
-2. ¿Por qué un programador puede usar diferentes lenguajes para desarrollar aplicaciones que se ejecutan sobre .NET?
-3. ¿Qué es el punto de entrada (entry point)? ¿Cuál es en los programas de .NET?
+4. Describa el proceso de compilación de los lenguajes de .NET.
+3. ¿Por qué un programador puede usar diferentes lenguajes para desarrollar aplicaciones que se ejecutan sobre .NET?
+4. ¿Qué es el punto de entrada (entry point)? ¿Cuál es en los programas de .NET?
 
 
 Defina los siguientes términos: Declaración (statement), variable y expresión (expression). ¿Cómo se relacionan?

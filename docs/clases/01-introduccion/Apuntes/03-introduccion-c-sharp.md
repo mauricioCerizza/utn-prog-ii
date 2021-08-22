@@ -12,7 +12,7 @@ Durante nuestro viaje a través de las características comunes de los lenguajes
 
 Tal vez algunas de las características de este lenguaje les parezcan similares a otros lenguajes que conozcan, y están en lo correcto. El equipo de C#, desde sus inicios, no dudó en tomar grandes ideas de otros lenguajes y reformarlas para incorporarlas a C#. Las principales influencias han sido Java (sobre todo en los inicios), y más cerca en el tiempo el mismísimo F#. 
 
-Fue diseñado por el ingeniero de Microsoft [Anders Hejlsberg](https://es.wikipedia.org/wiki/Anders_Hejlsberg), quien también es el creador de Delphi y Turbo Pascal y está involucrado en el desarrollo de Typescript desde 2012. 
+Fue diseñado por el ingeniero de Microsoft [Anders Hejlsberg](https://es.wikipedia.org/wiki/Anders_Hejlsberg), quien también está involucrado en el desarrollo de Typescript desde 2012. 
 
 ## Características de C#
 case sensitive
@@ -263,7 +263,7 @@ decimal numeroDecimal = 2.5M;
 
 :::warning Advertencia
 
-No se deben comparar valores `double` usando `==`. El tipo `double` no garantiza precisión porque hay algunos números que no pueden ser representados como valores de punto flotante. 
+No se deben comparar valores `double` usando `==`. El tipo `double` no garantiza precisión porque existen algunos números que no pueden ser representados como valores de punto flotante. 
 
 En 1991, durante la primera guerra del golfo, usar números de punto flotante [le costó la vida a 28 soldados](https://www-users.cse.umn.edu/~arnold/disasters/patriot.html) al no poder rastrear e interceptar un misil con precisión. 
 
@@ -330,3 +330,4 @@ Valor por defecto de strings:
 Valor por defecto de chars:
 ```
 
+## 

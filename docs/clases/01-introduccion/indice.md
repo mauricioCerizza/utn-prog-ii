@@ -44,11 +44,16 @@ Se apuntará a introducir las principales características de la plataforma y de
 [I09 - Dibujando un triángulo equilátero](./Ejercicios/I09-triangulo-equilatero.md)
 
 ## Bibliografía
+* Price, M. J. (2020). *C#9 and .NET 5 - Modern Cross-Platform Development.* (5th ed., pp. 41-202). Packt Publishing.
 * https://dotnet.microsoft.com/platform/support/policy/dotnet-core
 * “.NET Architectural Components.” Microsoft Docs, https://docs.microsoft.com/en-us/dotnet/standard/components.
 * "Common Type System & Common Language Specification." Microsoft Docs, https://docs.microsoft.com/en-us/dotnet/standard/common-type-system
 * https://adamsitnik.com/Value-Types-vs-Reference-Types/
 
-* Price, M. J. (2020). Improving Performance and Scalability Using Multitasking. En (5th ed.) *C#9 and .NET 5 - Modern Cross-Platform Development.* (pp. 667-705). Reino Unido: Packt Publishing.
  
+https://docs.microsoft.com/en-us/dotnet/standard/base-types/formatting-types
+https://docs.microsoft.com/en-us/dotnet/api/system.console?view=net-5.0
 
+Capítulo 1 Hello, C#! Welcome, .NET!
+Capítulo 2 Speaking C#
+Capítulo 3 Controlling Flow and Converting Types

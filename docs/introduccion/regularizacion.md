@@ -16,6 +16,6 @@ Para alcanzar la promoción directa, además de cumplir las condiciones de regul
 
 :::caution Advertencia
 
-El criterio de evaluación para alcanzar la aprobación (nota 4) o la promoción (nota 6+) queda a criterio del docente a cargo. Deberán ser consultados directamente al docente de su comisión.
+El criterio de evaluación para alcanzar la aprobación (nota 4) o la promoción (nota 6+) es una decisión del docente a cargo. Deberán ser consultados directamente al docente de su comisión.
 
 :::
