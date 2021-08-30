@@ -1,6 +1,6 @@
 ---
-sidebar_label: I02 - Conversor de Divisas
-title: Ejercicio I02 - Conversor de Divisas
+sidebar_label: I02 - Cotizador
+title: Ejercicio I02 - Cotizador
 author: Federico Dávila
 authorURL: https://github.com/FedeDavila1984
 hide_table_of_contents: true
@@ -10,8 +10,13 @@ hide_title: false
 ### Consigna
 Crear un proyecto de Consola y construir las clases **Pesos, Euro y Dolar.** dentro de un namespace llamado <code>Billetes</code>.
 
-Se debe lograr que los objetos de estas clases se puedan sumar, restar y comparar entre sí con total normalidad como si fueran tipos numéricos, teniendo presente que 1 Euro equivale a 1,17 dólares y 1 dólar equivale a 102,65 pesos.
+Se debe lograr que los objetos de estas clases se puedan sumar, restar y comparar entre sí con total normalidad como si fueran tipos numéricos, teniendo presente que *** 1 Euro equivale a 1,17 Dólares y 1 Dólar equivale a 102,65 Pesos.***
+
+:::tip
+    
 Para operar dos tipos de monedas, se deberá convertir todo a una y luego realizar lo pedido. Por ejemplo, si quiero sumar Dólar y Euro, deberé convertir el Euro a Dólar y luego sumarlos.
+
+:::
 
 1. El atributo cotizRespectoDolar y el método GetCotizacion son estáticos.
 

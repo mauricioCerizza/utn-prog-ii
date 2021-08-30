@@ -27,12 +27,12 @@ En esta sección abordaremos el concepto de sobrecarga. Nos ocuparemos de la sob
 
 [I01 - Sumador](./Ejercicios/I01-sumador.md)
 
-[I02 - Conversor de Divisas](./Ejercicios/I02-conversor-de-divisas.md)
+[I02 - Conversor](./Ejercicios/I02-cotizador.md)
 
 
 ### Análisis funcional
 
-[A01 - Conversor de Temperatura](./Ejercicios/A01-conversor-temperatura.md)
+[A01 - Fahrenheit 451](./Ejercicios/A01-fahrenheit-451.md)
 
 ## Bibliografía
 

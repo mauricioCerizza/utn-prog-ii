@@ -74,7 +74,9 @@ int[,] array = new int[3, 5];
 
 ![Matriz multidimensional](/clases/06-colecciones/Apuntes/matriz-bidimensional.png)
 
-Las matrices tridimensionales son analogas a un cubo Rubik 
+
+Las matrices tridimensionales son análogas a un cubo Rubik 
+
 
 ```csharp
 int[,,] array1 = new int[4, 2, 3];
@@ -113,6 +115,7 @@ jaggedArray[0] = new int[5];
 jaggedArray[1] = new int[4];
 jaggedArray[2] = new int[2];
 ```
+
 
 Cada uno de los elementos es una matriz unidimensional de números enteros. El primer elemento es una matriz de 5 enteros, el segundo es una matriz de 4 enteros y el tercero es una matriz de 2 enteros.
 
