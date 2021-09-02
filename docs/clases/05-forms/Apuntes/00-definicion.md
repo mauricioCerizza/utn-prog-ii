@@ -33,8 +33,7 @@ Los formularios,al ser objetos, poseen propiedades y métodos.
     + Size
     + Enabled
     + Font
-    + ForeColor
-    
+    + ForeColorcls
 
 + Metodos
     + Show()
@@ -42,7 +41,9 @@ Los formularios,al ser objetos, poseen propiedades y métodos.
     + Close()
     + Hide()
 
+## Creacion de proyecto
 
+![Template Windows Forms Visual Studio](/clases/05-forms/apuntes/crearprog.png)
 
 ## Bibliografía 
 
