@@ -14,4 +14,4 @@ Si bien en **Programación II** se evaluarán los aspectos teóricos y en **Labo
 Todas las clases son dictadas en el laboratorio, éstas pueden comenzar o terminar con una exposición teórica abierta al debate, buscando por sobre todo maximizar el tiempo de clases para trabajar en las máquinas. La materia cuenta con dos clases semanales de cuatro horas cada una.
 
 ### Planificación de las clases
-Podés consultar la planificación en [Google Classroom](https://classroom.google.com/u/0/c/NTQ1MTg2NjM5NDBa/m/NTUyMjg4ODM3MjVa/details).
+Podés consultar la planificación en [Google Classroom](https://classroom.google.com/u/0/w/NTQ1MTg2NjM5NDBa/tc/Mzc3NDU0NDcxODk1).
