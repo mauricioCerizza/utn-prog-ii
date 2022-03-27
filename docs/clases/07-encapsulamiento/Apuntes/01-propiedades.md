@@ -61,10 +61,10 @@ class Program
    {
        IntervaloTiempo t = new IntervaloTiempo();
        // Al asignar un valor a una propiedad invocamos el metodo de acceso set
-       t.Hours = 24;
+       t.Horas = 24;
 
        // Al recuperar el valor de la propiedad estamos invocando el método de acceso get 
-       Console.WriteLine($"El intervalo en horas es: {t.Hours}");
+       Console.WriteLine($"El intervalo en horas es: {t.Horas}");
    }
 }
 // El ejemplo muestra la siguiente salida:

@@ -12,7 +12,7 @@ authorURL:
 
 El encapsulamiento en C#, como en otros lenguajes orientados a objetos, nos permite proteger o crear límites de acceso a los atributos y métodos de una clase, controlando con ello el comportamiento fuera y dentro de la misma clase.
 
-La encapsulación se encarga de mantener ocultos los procesos internos de un objeto, dándole a lxs programadxr que lo utilicen acceso sólo a lo que necesitan.
+La encapsulación se encarga de mantener ocultos los procesos internos de un objeto, dándole a los programadores que lo utilicen acceso sólo a lo que necesitan.
 
 ### Niveles de Encapsulamiento
 
